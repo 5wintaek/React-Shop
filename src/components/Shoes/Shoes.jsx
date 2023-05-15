@@ -9,6 +9,7 @@ export function Shoes() {
 
   return (
     <Container>
+      <div className="main-bg"></div>
       <Row>
         <Col sm>
           <img src="https://openimage.interpark.com/goods_image_big/8/9/6/9/11014608969_l.jpg" width="80%"></img>
