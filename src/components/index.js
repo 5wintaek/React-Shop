@@ -1,3 +1,4 @@
 export * from './Shoes/Shoes';
 export * from './Menu/Nav';
-export * from './Detail/Detail';
+export * from './Pages/Detail';
+export * from './Pages/About';
