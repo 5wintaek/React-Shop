@@ -4,7 +4,7 @@ import 뉴발1906 from '@/assets/뉴발1906.png';
 import data from '@/components/data';
 import { useState } from 'react';
 
-export function Shoes() {
+export function Shoes(...restProps) {
   let [shoes] = useState(data);
 
   return (
