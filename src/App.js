@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Detail, Menu, Shoes, About } from '@/components';
-
 import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import data from './components/data';
