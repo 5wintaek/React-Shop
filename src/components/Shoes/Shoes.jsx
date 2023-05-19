@@ -1,6 +1,4 @@
 import { Row, Col, Container } from 'react-bootstrap';
-import 자운드 from '@/assets/자운드.png';
-import 뉴발1906 from '@/assets/뉴발1906.png';
 import data from '@/components/data';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
