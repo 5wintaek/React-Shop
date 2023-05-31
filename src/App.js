@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Detail, Menu, Shoes, About } from '@/components';
+import { Detail, Menu, Shoes, About, MoreButton } from '@/components';
 import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
 import { useState } from 'react';
 import data from './components/data';
@@ -19,6 +19,7 @@ function App() {
         <Route path="/detail/:id" element={<Detail shoes={shoes} />} />
         <Route path="*" element={<>없는페이지요</>} />
       </Routes>
+      <MoreButton />
     </div>
   );
 }
