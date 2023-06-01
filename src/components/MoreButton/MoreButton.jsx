@@ -8,7 +8,8 @@ export function MoreButton(props) {
           .get('https://codingapple1.github.io/shop/data2.json')
           .then((결과) => {
             console.log(결과.data);
-            console.log(props.shoes);
+
+            // console.log(props.shoes);
           })
           .catch(() => {
             console.log('실패함 ㅅㄱ');
