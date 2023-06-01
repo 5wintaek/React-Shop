@@ -19,7 +19,6 @@ function App() {
         <Route path="/detail/:id" element={<Detail shoes={shoes} />} />
         <Route path="*" element={<>없는페이지요</>} />
       </Routes>
-      <MoreButton />
     </div>
   );
 }
