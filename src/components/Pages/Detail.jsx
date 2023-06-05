@@ -62,8 +62,8 @@ const Content = styled.p`
   color: gray;
 `;
 
-const Button = styled.button`
-  background: ${(props) => props.bg};
-  color: ${(props) => (props.bg === 'blue' ? 'yellow' : 'white')}
-  padding: 10px;
-`;
+// const Button = styled.button`
+//   background: ${(props) => props.bg};
+//   color: ${(props) => (props.bg === 'blue' ? 'yellow' : 'white')}
+//   padding: 10px;
+// `;
